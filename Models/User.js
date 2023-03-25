@@ -12,7 +12,9 @@ const userSchema = new mongoose.Schema(
     hospital: String,
     haddress: String,
     hPic: String,
+    doctorPic: String,
     specialization: String,
+    workingHour: String,
   },
   { timestamps: true }
 );
